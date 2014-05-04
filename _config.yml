@@ -1,0 +1,59 @@
+title:            I, Developer
+tagline:          Does not compute.
+description:      A developer may not injure a project or, through inaction, allow a project to come to harm.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+#url:              
+
+# Owner/author information
+owner:
+  name:           Eder Elorriaga
+  avatar:         bio-photo.jpg
+  bio:            "I'm a computer geek with a knack for problem solving. Solid OOP background mainly in Java. Experienced both in backend and frontend and in BI. Very interested in UX and graphic design. Linux power user. Defender of good practices and agile methodologies."
+  email:          gexplorer8@gmail.com
+  twitter:        EderElorriaga
+  facebook:       eder.elorriaga
+  github:         gexplorer
+  linkedin:       ederelorriaga
+  instagram:      gexplorer
+  lastfm:         user/gexplorer
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    http://plus.google.com/+EderElorriaga
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-43148005-1
+google_verify:      
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Articles
+    url: /articles/
+  - title: Resume
+    url: http://resume.gexplorer.org/
+    external: true
+
+timezone:    Europe/Madrid
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
